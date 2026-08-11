@@ -1,0 +1,42 @@
+{
+    "name": "mortezamasumi/fb-suite",
+    "description": "Meta-package bundling all fb-* Filament packages (essentials, auth, sms, user, profile, message, passwd, report, setting, activity, copydb).",
+    "keywords": [
+        "mortezamasumi",
+        "laravel",
+        "filament",
+        "fb-suite"
+    ],
+    "homepage": "https://github.com/mortezamasumi/fb-suite",
+    "support": {
+        "issues": "https://github.com/mortezamasumi/fb-suite/issues",
+        "source": "https://github.com/mortezamasumi/fb-suite"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morteza Masumi",
+            "email": "morteza.masumi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "mortezamasumi/fb-activity": "^5.0",
+        "mortezamasumi/fb-auth": "^5.0",
+        "mortezamasumi/fb-copydb": "^5.0",
+        "mortezamasumi/fb-essentials": "^5.0",
+        "mortezamasumi/fb-message": "^5.0",
+        "mortezamasumi/fb-passwd": "^5.0",
+        "mortezamasumi/fb-profile": "^5.0",
+        "mortezamasumi/fb-report": "^5.0",
+        "mortezamasumi/fb-setting": "^5.0",
+        "mortezamasumi/fb-sms": "^5.0",
+        "mortezamasumi/fb-user": "^5.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
