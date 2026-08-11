@@ -25,6 +25,16 @@ Bundles:
 
 This package ships no code of its own — each `fb-*` package registers its own Laravel service provider via package auto-discovery. To pick a subset instead, require the individual packages directly.
 
+## Versioning
+
+Every dependency here is required with a `^5.0` constraint. A patch or minor release of any individual `fb-*` package is automatically picked up by `composer update` in consuming projects — `fb-suite` does not need a new release for that.
+
+`fb-suite` only needs a new tag when:
+
+- a wrapped package releases a new major version (the `^5.0` constraint would exclude it)
+- a package is added to or removed from the bundle
+- something in `fb-suite` itself changes (e.g. the PHP requirement)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
