@@ -23,7 +23,7 @@
     "require": {
         "php": "^8.5",
         "mortezamasumi/fb-activity": "^5.0",
-        "mortezamasumi/fb-auth": "^5.0",
+        "mortezamasumi/fb-auth": "^5.1.5",
         "mortezamasumi/fb-copydb": "^5.0",
         "mortezamasumi/fb-essentials": "^5.0",
         "mortezamasumi/fb-message": "^5.0",
